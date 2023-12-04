@@ -32,6 +32,8 @@ console.log(isPalindrome('hello'));
   Add written explanation of your solution here
   
   I implemented the .reverse() function to reverse whatever word is taken in as an argument.
+  It takes the original word and creats an array from the letters.
+  the .reverse() reverses the array. .join rejoins the elements into a new string.
   If the original word and the reverse word match, the function returns true.
   If not, the function returns false.
 */
